@@ -1,0 +1,24 @@
+<a class="skip-link" href="#main">Перейти к содержимому</a>
+
+<header class="header">
+  <div class="container header__inner">
+    <a class="brand" href="{{home}}" aria-label="Шаканукова Лариса Тольбиевна — на главную">
+      <img class="brand__logo" src="{{root}}assets/img/logo.svg" alt="" width="65" height="38">
+      <span class="brand__text">
+        <span class="brand__name">Лариса Шаканукова</span>
+        <span class="brand__role">Психоаналитическая психотерапия</span>
+      </span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="visually-hidden">Меню</span>
+      <span class="nav-toggle__box" aria-hidden="true"><span></span><span></span></span>
+    </button>
+    <nav class="nav" id="site-nav" aria-label="Основная навигация">
+      <p class="nav__head">Меню</p>
+{{nav}}
+      <a class="btn btn--sm" href="{{cta}}">Записаться</a>
+    </nav>
+    <a class="btn btn--sm btn--header" href="{{cta}}">Записаться</a>
+  </div>
+</header>
+<div class="nav-backdrop" hidden></div>
